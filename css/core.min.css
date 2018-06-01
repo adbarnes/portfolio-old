@@ -39,7 +39,14 @@
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-   a{
+  @media (max-width: 768px) {
+  .card
+  {
+    width:100%
+  }
+}
+
+  a{
     color: #3472a5;
   }
 
