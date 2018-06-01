@@ -45,3 +45,7 @@
     display: -ms-flexbox;
     display: flex;
   }
+
+  a{
+    color: #3472a5;
+  }
