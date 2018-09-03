@@ -91,6 +91,6 @@ header h1{
 
 svg {
   position: absolute;
-  top: 0;
+  top: -300px;
   left:0;
 }
