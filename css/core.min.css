@@ -73,9 +73,10 @@ header {
   transform-origin: top left;
 }
 
-header h1, h2, h3, h4 {
+header h1, header h2, header h3, header h4 {
   position: relative;
   color: white;
+  text-shadow: 0 3px 6px #00000030;;
 }
 
 header .links {
@@ -85,4 +86,5 @@ header .links {
 
 header h1{
   font-size: 4.5em;
+  font-weight:700px;
 }
