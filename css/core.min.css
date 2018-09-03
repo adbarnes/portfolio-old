@@ -77,3 +77,12 @@ header h1, h2, h3, h4 {
   position: relative;
   color: white;
 }
+
+header .links {
+  position: relative;
+
+}
+
+header h1{
+  font-size: 4.5em;
+}
