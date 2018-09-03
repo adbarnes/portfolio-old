@@ -71,7 +71,7 @@ header {
   transform-origin: top left;
 }
 
-header h1, h2, h2, h4 {
+header h1, h2, h3, h4 {
   position: relative;
   color: white;
 }
