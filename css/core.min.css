@@ -100,3 +100,9 @@ header h1{
   top: -300px;
   right:0;
 }
+
+.phonesvg {
+  position: absolute;
+  top: -300px;
+  right:50%0;
+}
