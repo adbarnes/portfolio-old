@@ -57,6 +57,7 @@ header {
   overflow: hidden;
   text-align: center;
   padding-top:1em;
+  margin-bottom: -200px;
 }
 
 .header__bg {
