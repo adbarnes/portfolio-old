@@ -55,6 +55,7 @@ header {
   position: relative;
   height: 400px;
   overflow: hidden;
+  text-align: center;
 }
 
 .header__bg {
