@@ -128,3 +128,8 @@ header h1{
   text-decoration: underline;
   text-decoration-color: #f15a24
 }
+
+.p-0-20
+{
+  padding: 0px 20px;
+}
