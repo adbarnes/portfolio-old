@@ -50,6 +50,11 @@
     color: #3472a5;
   }
 
+  body
+  {
+    background-color: #666666
+  }
+
 
 header {
   position: relative;
