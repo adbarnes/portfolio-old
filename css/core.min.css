@@ -132,4 +132,10 @@ header h1{
 .p-0-20
 {
   padding: 0px 20px;
+  left: -20px;
+}
+
+.m-0-8
+{
+  margin:0px 8px;
 }
