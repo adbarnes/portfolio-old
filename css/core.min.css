@@ -148,3 +148,7 @@ header h1{
   font-weight: bold;
 }
 
+.card-img-top
+{
+  border-radius: 0px;
+}
