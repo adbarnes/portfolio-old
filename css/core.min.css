@@ -1,4 +1,9 @@
-
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../images/bg.png');
+  background-size: cover;
+}
 :root {
     --jumbotron-padding-y: 3rem;
   }
@@ -58,11 +63,10 @@
 
 header {
   position: relative;
-  height: 400px;
+  height: 2S00px;
   overflow: hidden;
   text-align: center;
   padding-top:1em;
-  margin-bottom: -200px;
 }
 
 .header__bg {
@@ -91,15 +95,7 @@ header .links {
 
 header h1{
   font-size: 4.5em;
-  font-weight:700px;
 }
-
-@media (max-width: 768px) { 
-  header h1{
-    font-size: 2em;
-  }
- }
-
 
 .rsquare {
   position: absolute;
@@ -146,3 +142,9 @@ header h1{
 {
   margin:8px 8px;
 }
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
