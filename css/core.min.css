@@ -81,7 +81,6 @@ header {
 header h1, header h2, header h3, header h4 {
   position: relative;
   color: white;
-  text-shadow: 0 3px 6px #00000030;;
 }
 
 header .links {
