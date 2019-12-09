@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  /*background-image: url('../images/bg.gif');
+  background-size: cover;*/
+  background-color: #f1f2f2
+}
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #3472a5;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 400;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  @media (max-width: 768px) {
+  .card
+  {
+    width:100%
+  }
+}
+
+  a{
+    color: #3472a5;
+  }
+
+
+header {
+  position: relative;
+  height: 2S00px;
+  overflow: hidden;
+  text-align: center;
+  padding-top:1em;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#6fa7ff, #4789F6);
+  transform: skewY(-3deg);
+  transform-origin: top left;
+}
+
+header h1, header h2, header h3, header h4 {
+  position: relative;
+  color: white;
+}
+
+header .links {
+  position: relative;
+
+}
+
+header h1{
+  font-size: 4.5em;
+}
+
+.rsquare {
+  position: absolute;
+  top: -300px;
+  left:0;
+}
+
+.circle {
+  position: absolute;
+  top: -500px;
+  right:0;
+}
+
+.phonesvg {
+  position: absolute;
+  top: -400px;
+  right:50%;
+}
+
+.btn-light
+{
+  color:#fff;
+  background-color: #ef4136
+}
+
+.orange
+{
+  background-color: #ef4136
+}
+
+.text-orange
+{
+  color: #ef4136;
+}
+
+.underline
+{
+  text-decoration: underline;
+  text-decoration-color: #f15a24
+}
+
+.p-0-20
+{
+  padding: 0px 20px;
+  left: -20px;
+}
+
+.m-0-8
+{
+  margin:8px 8px;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.card-img-top
+{
+  border-radius: 0px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.9)
+}
+
+
+@media (max-width: 575.98px) { 
+  .navbar-brand {
+    font-size: 1.15em;
+  }
+ }
