@@ -1,285 +1,312 @@
 /* Style for our header texts
 	* --------------------------------------- */
-  h1 {
-    font-size: 2em;
-    font-family: arial, helvetica;
-    color: #fff;
-    margin: 0;
-  }
-  .intro-withimage {
-    display: flex;
-    align-items: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .intro p {
-    color: #fff;
-    font-size: 1.2em;
-  }
-  
-  .intro-withimage h1,
-  .intro-withimage p {
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-  
-  .intro-withimage ul {
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-  .intro-withimage ul li {
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  /* Centered texts in each section
+h1 {
+  font-size: 2em;
+  font-family: arial, helvetica;
+  color: #fff;
+  margin: 0;
+}
+.intro-withimage {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.intro-withimage h1,
+.intro-withimage p {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.intro-withimage ul {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.intro-withimage ul li {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Centered texts in each section
   * --------------------------------------- */
-  .section {
-    text-align: center;
-  }
-  
-  /* Overwriting styles for control arrows for slides
+.section {
+  text-align: center;
+}
+
+/* Overwriting styles for control arrows for slides
   * --------------------------------------- */
-  .controlArrow.prev {
-    left: 50px;
-  }
-  
-  .controlArrow.next {
-    right: 50px;
-  }
-  
-  /* Bottom menu
+.controlArrow.prev {
+  left: 50px;
+}
+
+.controlArrow.next {
+  right: 50px;
+}
+
+/* Bottom menu
   * --------------------------------------- */
-  #infoMenu li a {
-    color: #fff;
-  }
-  
-  /* Slide Colours
+#infoMenu li a {
+  color: #fff;
+}
+
+/* Slide Colours
   * --------------------------------------- */
-  
-  #slide2 
-  {
-    background-color: #bf1d46;
-  } 
-  
-  #slide4{
-    background-color: #2b6cb0;
-  }
-  #slide4 a span{
-    color: #2b6cb0;
-  }
-  #slide2  a span{
-    color: #bf1d46;
-  }
-  
-  #slide3{
-      background-color: #C2385B;
-    }
-  
-    #slide3 a span{
-      color: #C2385B;
-    }
-  
-    #slide5{
-      background-color:#00599E
-    }
-  
-    #slide5  a span{
-      color:#00599E
-    }
-  
-    #slide6{
-      background-color: #FEC401;
-    }
-  
-    #slide6 a span{
-      color: #FEC401;
-    }
-  
-    #slide7{
-      background-color: #30580A
-    }
-  
-    #slide7 a span{
-      color: #30580A
-    }
-  
-    #slide8{
-      background-color: #d04e2b
-    }
-  
-    #slide8 a span{
-      color: #d04e2b
-    }
-  
-  
-    #slide9 {
-        background-color: #fb8c00;
-    }
-  
-    #slide9 a span {
-      color: #fb8c00;
-  }
-  
-  
-    #slide10 {
-      background-color: #70297D;
-  }
-  
-  #slide10 a span{
-    color: #70297D;
-  }
-  
-  #slide11 {
-    background-color:#19283F
-  }
-  
-  #slide11 a span {
-    color:#19283F
-  }
-  
-  
-  #slide12 {
-    background-color:#3A2F5D
-  }
-  
-  #slide12 a span {
-    color:#3A2F5D
-  }
-  
-  #slide13 {
-    background-color:#39929B
-  }
-  
-  #slide13 a span {
-    color:#39929B
-  }
-  
-  #slide14 {
-    background-color:#a3d453
-  }
-  
-  #slide14 a span {
-    color:#a3d453
-  }
-  
-  #slide15 {
-    background-color:#d4c0a0
-  }
-  
-  #slide15 a span {
-    color:#d4c0a0
-  }
-  
-  #slide16 {
-    background-color:#58411e
-  }
-  
-  #slide16 a span {
-    color:#58411e
-  }
-  
-  #slide17 {
-    background-color:#20292d
-  }
-  
-  #slide17 a span{
-    color:#20292d
-  }
-  
-  #slide18 {
-    background-color:#ae8f87
-  }
-  
-  #slide18 a span{
-    color:#ae8f87
-  }
-  
-  #slide19 {
-    background-color:#0b7092
-  }
-  
-  #slide19 a span {
-    color:#0b7092
-  }
-  
-  #slide20 {
-    background-color:#374353
-  }
-  
-  #slide20 a span {
-    color:#374353
-  }
-  
-  #slide21 {
-    background-color:#e95351;
-  }
-  
-  #slide21 a span
-  {
-    color:#e95351;
-  }
-  
-  .brand-colour-gt span {
-      color: #7dbb3e;
-    }
-  
-    .brand-colour-wp span {
-      color: #00599E;
-    }
-  
-    .brand-colour-wpp span {
-      color: #FEC401;
-    }
-  
-  
-  
-  .text-content {
-    max-width: 600px;
-    text-align: left;
-    padding-left: 70px;
-  }
-  
-  .slide a {
-    background-color: #fff; /* Green */
-    border: none;
-    color: #c2385b;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    border-radius: 5px;
-    width: 50%;
-    margin-top:30px;
-  }
-  
-  a.enlarge {
-    background-color: #fff; /* Green */
-    border: none;
-    color: #c2385b;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    border-radius: 0px 5px 5px 0px;
-    width: auto;
-    margin-top:0px;
-  }
-  
-  .slide a span {
-      font-weight: 600;
-  }
-  
-  .fa-ul {
-    margin-left: 1.5em;
-  }
-  
-  .site-logo
-    {
-      position: absolute; left: 10px; top:10px; height: 2.5em; z-index: 71;
-    }
-  
+
+#slide2 {
+  background-color: #bf1d46;
+}
+
+#slide2 a span {
+  color: #bf1d46;
+}
+
+#slide3 {
+  background-color: #c2385b;
+}
+
+#slide3 a span {
+  color: #c2385b;
+}
+
+#slide4 {
+  background-color: #2b6cb0;
+}
+#slide4 a span {
+  color: #2b6cb0;
+}
+
+#slide4a {
+  background-color: #4299e1;
+}
+#slide4a a span {
+  color: #4299e1;
+}
+
+#slide5 {
+  background-color: rgb(84, 114, 133);
+}
+
+#slide5 a span {
+  color: rgb(84, 114, 133);
+}
+
+#slide6 {
+  background-color: #d69c81;
+}
+
+#slide6 a span {
+  color: #d69c81;
+}
+
+#slide7 {
+  background-color: #4c4e61;
+}
+
+#slide7 a span {
+  color: #4c4e61;
+}
+
+#slide8 {
+  background-color: #00599e;
+}
+
+#slide8 a span {
+  color: #00599e;
+}
+
+#slide9 {
+  background-color: #fec401;
+}
+
+#slide9 a span {
+  color: #fec401;
+}
+
+#slide10 {
+  background-color: #30580a;
+}
+
+#slide10 a span {
+  color: #30580a;
+}
+
+#slide11 {
+  background-color: #d04e2b;
+}
+
+#slide11 a span {
+  color: #d04e2b;
+}
+
+#slide12 {
+  background-color: #fb8c00;
+}
+
+#slide12 a span {
+  color: #fb8c00;
+}
+
+#slide13 {
+  background-color: #70297d;
+}
+
+#slide13 a span {
+  color: #70297d;
+}
+
+#slide14 {
+  background-color: #19283f;
+}
+
+#slide14 a span {
+  color: #19283f;
+}
+
+#slide15 {
+  background-color: #3a2f5d;
+}
+
+#slide15 a span {
+  color: #3a2f5d;
+}
+
+#slide16 {
+  background-color: #39929b;
+}
+
+#slide16 a span {
+  color: #39929b;
+}
+
+#slide17 {
+  background-color: #a3d453;
+}
+
+#slide17 a span {
+  color: #a3d453;
+}
+
+#slide18 {
+  background-color: #d4c0a0;
+}
+
+#slide18 a span {
+  color: #d4c0a0;
+}
+
+#slide19 {
+  background-color: #58411e;
+}
+
+#slide19 a span {
+  color: #58411e;
+}
+
+#slide20 {
+  background-color: #20292d;
+}
+
+#slide20 a span {
+  color: #20292d;
+}
+
+#slide21 {
+  background-color: #ae8f87;
+}
+
+#slide21 a span {
+  color: #ae8f87;
+}
+
+#slide22 {
+  background-color: #0b7092;
+}
+
+#slide22 a span {
+  color: #0b7092;
+}
+
+#slide23 {
+  background-color: #374353;
+}
+
+#slide23 a span {
+  color: #374353;
+}
+
+#slide24 {
+  background-color: #e95351;
+}
+
+#slide24 a span {
+  color: #e95351;
+}
+
+.brand-colour-gt span {
+  color: #7dbb3e;
+}
+
+.brand-colour-wp span {
+  color: #00599e;
+}
+
+.brand-colour-wpp span {
+  color: #fec401;
+}
+
+.text-content {
+  max-width: 600px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.slide a {
+  background-color: #fff; /* Green */
+  border: none;
+  color: #c2385b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+a.enlarge {
+  background-color: #fff; /* Green */
+  border: none;
+  color: #c2385b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 0px 5px 5px 0px;
+  width: auto;
+  margin-top: 0px;
+}
+
+.slide a span {
+  font-weight: 600;
+}
+
+.fa-ul {
+  margin-left: 1.5em;
+}
+
+.site-logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 2.5em;
+  z-index: 71;
+}
