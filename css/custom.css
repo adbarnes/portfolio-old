@@ -89,6 +89,13 @@ h1 {
   color: #545d68;
 }
 
+#slide4b {
+  background-color: #5b5468;
+}
+#slide4b a span {
+  color: #5b5468;
+}
+
 #slide5 {
   background-color: rgb(84, 114, 133);
 }
