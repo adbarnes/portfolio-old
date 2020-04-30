@@ -93,7 +93,14 @@ h1 {
   background-color: #5b5468;
 }
 #slide4b a span {
-  color: #5b5468;
+  color: #6f6979;
+}
+
+#slide4c {
+  background-color: #646464;
+}
+#slide4c a span {
+  color: #646464;
 }
 
 #slide5 {
