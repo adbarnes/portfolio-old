@@ -59,6 +59,11 @@ h1 {
 /* Slide Colours
   * --------------------------------------- */
 
+.intro-withimage img {
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
 #slide2 {
   background-color: #bf1d46;
 }
@@ -101,6 +106,14 @@ h1 {
 }
 #slide4c a span {
   color: #646464;
+}
+
+#slide-pricing-component {
+  background-color: #959595;
+}
+
+#slide-pricing-component a span {
+  color: #959595;
 }
 
 #slide5 {
