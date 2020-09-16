@@ -117,6 +117,13 @@ h2 {
   color: #646464;
 }
 
+#slide4d {
+  background-color: #646464;
+}
+#slide4d a span {
+  color: #646464;
+}
+
 #slide-pricing-component {
   background-color: #959595;
 }
@@ -428,4 +435,57 @@ a.enlarge {
 
 #menu li.active a:hover {
   color: #fff;
+}
+
+.more {
+  position: absolute;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+  bottom:4%;
+  color:#231f20;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more :link {
+  color:#231f20
+}
+
+.more :hover, :visited {
+  color:rgb(239, 65, 54)
+  
+}
+
+
+.chevron-down {
+  width: 2em;
+  height: 2em;
+  animation: pulse 3500ms;
+  animation-delay: 5s;
+  animation-iteration-count: 15;
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
