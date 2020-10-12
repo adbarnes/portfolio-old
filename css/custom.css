@@ -124,6 +124,13 @@ h2 {
   color: #646464;
 }
 
+#slide4e {
+  background-color:#0c4f75;
+}
+#slide4e a span {
+  color:#0c4f75;
+}
+
 #slide-pricing-component {
   background-color: #959595;
 }
