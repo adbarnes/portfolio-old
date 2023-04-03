@@ -73,9 +73,18 @@ h2 {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
+#slide1g {
+  background-color: #851b6a
+}
+
+#slide1g a span {
+  color: #851b6a
+}
+
 #slide1f {
   background-color: #C7871A
 }
+
 #slide1f a span {
   color: #C7871A
 }
